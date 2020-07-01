@@ -1,3 +1,5 @@
+<img align="right" src="img/completed.jpg" width="200">
+
 # Fan control
 A project using a DC relay to control 4 computer fans
 
@@ -5,10 +7,6 @@ A project using a DC relay to control 4 computer fans
 - AutoConnect portal
 - DHT 22 library DHTesp
 - ESP8266 web server
-
-
-<img align="right" src="img/completed.jpg" width="200">
-
 
 ## Bill of Materials
 - 4 x 12V fans (used Arctic F8 Pro)
