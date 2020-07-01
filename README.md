@@ -5,7 +5,9 @@ A project using a DC relay to control 4 computer fans
 - AutoConnect portal
 - DHT 22 library DHTesp
 - ESP8266 web server
-![image of project](img/completed.jpg)
+
+
+<img align="right" src="img/completed.jpg" width="200">
 
 
 ## Bill of Materials
