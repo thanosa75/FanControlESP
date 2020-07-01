@@ -36,5 +36,11 @@ OFF
 
 The measurements are surrounded by a respective <div> so they can be harvested if necessary. 
 
+### Notes
+1. A 5V Relay "ideally" wants 5V but can be switched with a 3V3 input. The major snafu here is that you cannot provide 5V power (VCC) and then switch (IN) via a 3V3 rail. It will never switch. You need to use *same VCC and IN* to be able to make it work. In this project, the relay is switched with a 3V3 VCC and IN.
+2. Spend a lot of time powering with a 5V current via the VIN (regulated IN). Apparently this is not working correctly on the voltages/amp supplied; the VU (USB 5V in) works like a charm. Noted ;)
+
+ 
+
 ## Future work
 Add a button to control FAN state manually via the web page.
